@@ -1,0 +1,15 @@
+### 创建任务
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "测试任务",
+  "description": "描述",
+  "priority": "HIGH"
+}
+
+### 获取任务列表
+GET http://localhost:8080/api/tasks
+
+### 获取单个任务
+DELETE http://localhost:8080/api/tasks/5

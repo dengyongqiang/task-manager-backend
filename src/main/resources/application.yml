@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: task-manager-backend
+  datasource:
+    url: jdbc:mysql://localhost:3307/task_manager?useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
